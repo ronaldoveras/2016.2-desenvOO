@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+
+    	System.out.println("Digite um número:");
+    	Scanner entradaNumero = new Scanner(System.in);
+    	int numero = entradaNumero.nextInt();
+    	System.out.println("Número: " + numero);
+    	
+//    	System.out.println("Digite o saldo: ");
+//    	Scanner entradaSaldo = new Scanner(System.in);
+//    	float saldo = entradaSaldo.nextFloat();
+//
+//    	System.out.println("Digite o valor que será debitado: ");
+//    	Scanner entradaDebito = new Scanner(System.in);
+//    	float debito = entradaDebito.nextFloat();
+//    	
+//    	float saldoPos = saldo - debito;
+//    	System.out.println("Correntista " + nomeCorrentista + ", seu saldo atual é R$ " + saldoPos);
+	}
+}
