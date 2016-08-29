@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Exercicio03 {
 
 	public static void main(String[] args) {
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		Scanner entradaNumeroUm = new Scanner(System.in);
 		int numeroUm = entradaNumeroUm.nextInt();
 		
 		
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		Scanner entradaNumeroDois = new Scanner(System.in);
 		int numeroDois = entradaNumeroDois.nextInt();
 		
 
-		System.out.println("Digite a operação: ");
+		System.out.println("Digite a operaÃ§Ã£o: ");
 		Scanner entradaOperacao = new Scanner(System.in);
 		String operacao = entradaOperacao.next();
 
