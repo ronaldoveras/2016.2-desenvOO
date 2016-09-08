@@ -9,7 +9,7 @@ public class NomeClasse {
 	
 	//Definição dos métodos da classe
 	public void metodo1(){
-		
+		System.out.println(atributo1);
 	}
 	
 	private int metodo2(int parametro){
