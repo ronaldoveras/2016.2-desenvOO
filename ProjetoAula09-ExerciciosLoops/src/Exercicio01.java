@@ -10,7 +10,7 @@ public class Exercicio01 {
 		for (int i = numero - 1; i > 0; i--) {
 			fatorial = fatorial*i;
 		}
-		System.out.println("O fatorial de " + numero + " Ã©: " + fatorial);
+		System.out.println("O fatorial de " + numero + " é: " + fatorial);
 	}
 
 }
