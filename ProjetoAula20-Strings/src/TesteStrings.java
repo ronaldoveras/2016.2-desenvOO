@@ -46,6 +46,13 @@ public class TesteStrings {
 		} else {
 		    System.out.println("O endereço não é registrado no Brasil");
 		}
+		
+		endereco = "www.tiexpress.net";
+		String dominio = endereco.substring(4);
+		String site = endereco.substring(endereco.indexOf('.') + 1, endereco.lastIndexOf('.'));
+		System.out.println("Domínio: " + dominio);
+		System.out.println("Site: " + site);
+		
 	}
 
 }
